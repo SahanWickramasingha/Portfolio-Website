@@ -3,11 +3,10 @@ const repoName = "Portfolio-Website";
 
 const nextConfig = {
   output: "export",
-  basePath: `/${repoName}`,
-  assetPrefix: `/${repoName}/`,
-  images: {
-    unoptimized: true,
-  },
+  distDir: "docs",
+  basePath: "/Portfolio-Website",
+  assetPrefix: "/Portfolio-Website/",
+  images: { unoptimized: true },
 };
 
 export default nextConfig;
